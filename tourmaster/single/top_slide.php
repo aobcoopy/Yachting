@@ -20,28 +20,146 @@ $des = '';
 if($_REQUEST['tax-tour-destinations']=='')
 {
 	$arr_img = [
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Tao-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Samui-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Railay-beach-W-900x500-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Hong-W900x500png.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Phi-Phi-900x500-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/koh-nangyuan900x500.jpg',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Promthep-cape-W-900x500-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Khai-Island-W-900x500-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Phuket-Beach-900x500-1.png',
-	];
-	
-	$arr_name = [
-		'Koh Khai',
-		'Racha',
-		'Koh Maiton',
-		'Coral Island',
-		'Koh Bon',
-		'Rang Yai Island',
-		'Koh Kaeo',
-		'Koh Maphrao',
+		[
+			'name' => 'Koh Khai',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Khai-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Racha',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Racha-Island2-900x500-2.jpg'
+		],
+		[
+			'name' => 'Koh Maiton',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Maiton-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Coral Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Coral-Island-900x500-1.jpg'
+		],
+		[
+			'name' => 'Rang Yai Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Rang-Yai-Island-900x500-copy.jpg'
+		],
+		[
+			'name' => 'Koh Kaew',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Kaew900x500.jpg'
+		],
+		[
+			'name' => 'Koh Maphrao',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Coconut-island-900x500-1.jpg'
+		],
+		[
+			'name' => 'Promthep cape',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/promthep-cape-viewpoint-sunset-phuket-thailand-900x500-1.jpg'
+		],
+		[
+			'name' => 'Phagnan Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Phangan4900x500.jpg'
+		],
+		[
+			'name' => 'Koh Tao',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-nangyuan-Koh-Tao-900x500-1.jpg'
+		],
+		[
+			'name' => 'Ang Thong Marin park',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/mu-ko-ang-thong-national-park-thailand900x500.jpg'
+		],
+		[
+			'name' => 'Koh Mad Sum',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-madsum-900x500-2.jpeg'
+		],
+		[
+			'name' => 'Koh Wua ta Lap',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-wua-ta-lap-4.jpg'
+		],
+		[
+			'name' => 'Koh Som',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/koh-som-1.jpg'
+		],
+		[
+			'name' => 'Monkey Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Ko-Klet-Kaeo2.jpeg'
+		],
+		[
+			'name' => 'Khram Yai Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Khram1-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Koh Sak',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Sak-Original-size-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Koh Larn',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Larn-Pattaya-900x500-2.png'
+		],
+		[
+			'name' => 'Rin Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Rin-3.jpeg'
+		],
+		[
+			'name' => 'Koh Phai',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Phai.jpg'
+		],
+		[
+			'name' => 'Phi Phi Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Phi-Phi-Krabi-900x500-1.jpg'
+		],
+		[
+			'name' => 'Koh Hong',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-hong-krabi-2-900x500-1.jpg'
+		],
+		[
+			'name' => 'Railay Beach',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-railay-beach-krabi-thailand900x500.jpg'
+		],
+		[
+			'name' => 'Thale waek island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Talay-waek-krabi-thailand1920x1325.jpg'
+		],
+		[
+			'name' => 'Chicken island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Chicken-Island-Krabi900X500.jpg'
+		],
+		[
+			'name' => 'Matang ming Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Ko-Ma-Tang-Ming-View-and-Poda-Island-Beach-1024x683-1.jpg'
+		],
+		[
+			'name' => 'Poda island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/poda-island-960x530-1.jpg'
+		],
+		[
+			'name' => 'Lao lading island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-lao-lading-island-krabi-thailand-2-copy.jpg'
+		],
+		[
+			'name' => 'Pakbia Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-views-koh-phak-bia-krabi-thailand-4k-video-october-10-2021.jpg'
+		],
+		[
+			'name' => 'Tub island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-tup-900x500-1.jpg'
+		],
+		[
+			'name' => 'Bamboo island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Bamboo.Island.jpg'
+		],
+		[
+			'name' => 'James bond island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/james-bond-island-900x500-1.jpg'
+		],
+		[
+			'name' => 'Panyi Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-panyee-island-phang-nga-thailand900x500.jpg'
+		],
+		[
+			'name' => 'Yao Noi , Yao yai island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Yao-Yai-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Similan island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Similan-island-2-900x500-1.jpg'
+		],
 	];
 	
 	$title = 'All Island';
@@ -126,22 +244,33 @@ elseif($_REQUEST['tax-tour-destinations']=='koh-samui')
 elseif($_REQUEST['tax-tour-destinations']=='pattaya')
 {
 	$arr_img = [
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
+		[
+			'name' => 'Monkey Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Ko-Klet-Kaeo2.jpeg'
+		],
+		[
+			'name' => 'Khram Yai Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Khram1-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Koh Sak',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Sak-Original-size-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Koh Larn',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Larn-Pattaya-900x500-2.png'
+		],
+		[
+			'name' => 'Rin Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Rin-3.jpeg'
+		],
+		[
+			'name' => 'Koh Phai',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Phai.jpg'
+		],
+		
 	];
 	
-	$arr_name = [
-		'Monkey Island',
-		'Khram Yai Island',
-		'Koh Sak',
-		'Koh Larn',
-		'Rin Island',
-		'Koh Phai'
-	];
 	
 	$island = str_replace("-"," ",$_REQUEST['tax-tour-destinations']);
 	$title = 'Island Around '.$island.' City';
@@ -150,22 +279,52 @@ elseif($_REQUEST['tax-tour-destinations']=='pattaya')
 elseif($_REQUEST['tax-tour-destinations']=='krabi')
 {
 	$arr_img = [
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
+		[
+			'name' => 'Phi Phi Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Phi-Phi-Krabi-900x500-1.jpg'
+		],
+		[
+			'name' => 'Koh Hong',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-hong-krabi-2-900x500-1.jpg'
+		],
+		[
+			'name' => 'Railay Beach',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-railay-beach-krabi-thailand900x500.jpg'
+		],
+		[
+			'name' => 'Thale waek island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Talay-waek-krabi-thailand1920x1325.jpg'
+		],
+		[
+			'name' => 'Chicken island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Chicken-Island-Krabi900X500.jpg'
+		],
+		[
+			'name' => 'Matang ming Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Ko-Ma-Tang-Ming-View-and-Poda-Island-Beach-1024x683-1.jpg'
+		],
+		[
+			'name' => 'Poda island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/poda-island-960x530-1.jpg'
+		],
+		[
+			'name' => 'Lao lading island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-lao-lading-island-krabi-thailand-2-copy.jpg'
+		],
+		[
+			'name' => 'Pakbia Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-views-koh-phak-bia-krabi-thailand-4k-video-october-10-2021.jpg'
+		],
+		[
+			'name' => 'Tub island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-tup-900x500-1.jpg'
+		],
+		[
+			'name' => 'Bamboo island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Bamboo.Island.jpg'
+		],
 	];
 	
-	$arr_name = [
-		'Monkey Island',
-		'Khram Yai Island',
-		'Koh Sak',
-		'Koh Larn',
-		'Rin Island',
-		'Koh Phai'
-	];
 	
 	$island = str_replace("-"," ",$_REQUEST['tax-tour-destinations']);
 	$title = 'Island Around '.$island;
@@ -174,21 +333,23 @@ elseif($_REQUEST['tax-tour-destinations']=='krabi')
 elseif($_REQUEST['tax-tour-destinations']=='phang-nga')
 {
 	$arr_img = [
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Chang-W900x500.png',
-	'http://inspiringyachting.com/wp-content/uploads/2023/05/Koh-Larn-Pattaya-W-1.png',
-	];
-	
-	$arr_name = [
-		'Monkey Island',
-		'Khram Yai Island',
-		'Koh Sak',
-		'Koh Larn',
-		'Rin Island',
-		'Koh Phai'
+		[
+			'name' => 'James bond island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/james-bond-island-900x500-1.jpg'
+		],
+		[
+			'name' => 'Panyi Island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-panyee-island-phang-nga-thailand900x500.jpg'
+		],
+		[
+			'name' => 'Yao Noi , Yao yai island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Yao-Yai-900x500-1.jpeg'
+		],
+		[
+			'name' => 'Similan island',
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Similan-island-2-900x500-1.jpg'
+		],
+		
 	];
 	
 	$island = str_replace("-"," ",$_REQUEST['tax-tour-destinations']);
@@ -243,7 +404,7 @@ include "top_description.php";
 <script>
 $(document).ready(function(){
 	  $('.owl-carousel').owlCarousel({
-		items:4,
+		//items:4,
 		loop:true,
 		margin:10,
 		responsiveClass:true,
