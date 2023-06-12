@@ -25,7 +25,7 @@ if($_REQUEST['tax-tour-destinations']=='')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Khai-900x500-1.jpeg'
 		],
 		[
-			'name' => 'Racha',
+			'name' => 'Racha Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Racha-Island2-900x500-2.jpg'
 		],
 		[
@@ -37,11 +37,15 @@ if($_REQUEST['tax-tour-destinations']=='')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Coral-Island-900x500-1.jpg'
 		],
 		[
+			'name' => 'Koh Bon',
+			'photo' => '' 
+		],
+		[
 			'name' => 'Rang Yai Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Rang-Yai-Island-900x500-copy.jpg'
 		],
 		[
-			'name' => 'Koh Kaew',
+			'name' => 'Koh Kaeo',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Kaew900x500.jpg'
 		],
 		[
@@ -61,15 +65,15 @@ if($_REQUEST['tax-tour-destinations']=='')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-nangyuan-Koh-Tao-900x500-1.jpg'
 		],
 		[
-			'name' => 'Ang Thong Marin park',
+			'name' => 'Ang Thong Marin Park',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/mu-ko-ang-thong-national-park-thailand900x500.jpg'
 		],
 		[
-			'name' => 'Koh Mad Sum',
+			'name' => 'Koh Madsum',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-madsum-900x500-2.jpeg'
 		],
 		[
-			'name' => 'Koh Wua ta Lap',
+			'name' => 'Koh Wua Ta Lap',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-wua-ta-lap-4.jpg'
 		],
 		[
@@ -113,23 +117,23 @@ if($_REQUEST['tax-tour-destinations']=='')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-railay-beach-krabi-thailand900x500.jpg'
 		],
 		[
-			'name' => 'Thale waek island',
+			'name' => 'Thale Waek Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Talay-waek-krabi-thailand1920x1325.jpg'
 		],
 		[
-			'name' => 'Chicken island',
+			'name' => 'Chicken Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Chicken-Island-Krabi900X500.jpg'
 		],
 		[
-			'name' => 'Matang ming Island',
+			'name' => 'Matang Ming Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Ko-Ma-Tang-Ming-View-and-Poda-Island-Beach-1024x683-1.jpg'
 		],
 		[
-			'name' => 'Poda island',
+			'name' => 'Poda Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/poda-island-960x530-1.jpg'
 		],
 		[
-			'name' => 'Lao lading island',
+			'name' => 'Lao Lading Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-lao-lading-island-krabi-thailand-2-copy.jpg'
 		],
 		[
@@ -137,15 +141,15 @@ if($_REQUEST['tax-tour-destinations']=='')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-views-koh-phak-bia-krabi-thailand-4k-video-october-10-2021.jpg'
 		],
 		[
-			'name' => 'Tub island',
+			'name' => 'Tub Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-tup-900x500-1.jpg'
 		],
 		[
-			'name' => 'Bamboo island',
+			'name' => 'Bamboo Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Bamboo.Island.jpg'
 		],
 		[
-			'name' => 'James bond island',
+			'name' => 'James Bond Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/james-bond-island-900x500-1.jpg'
 		],
 		[
@@ -153,11 +157,11 @@ if($_REQUEST['tax-tour-destinations']=='')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-panyee-island-phang-nga-thailand900x500.jpg'
 		],
 		[
-			'name' => 'Yao Noi , Yao yai island',
+			'name' => 'Yao Noi , Yao Yai island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Yao-Yai-900x500-1.jpeg'
 		],
 		[
-			'name' => 'Similan island',
+			'name' => 'Similan Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Similan-island-2-900x500-1.jpg'
 		],
 	];
@@ -173,7 +177,7 @@ elseif($_REQUEST['tax-tour-destinations']=='phuket')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Khai-900x500-1.jpeg'
 		],
 		[
-			'name' => 'Racha',
+			'name' => 'Racha Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Racha-Island2-900x500-2.jpg'
 		],
 		[
@@ -185,11 +189,15 @@ elseif($_REQUEST['tax-tour-destinations']=='phuket')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Coral-Island-900x500-1.jpg'
 		],
 		[
+			'name' => 'Koh Bon',
+			'photo' => '' 
+		],
+		[
 			'name' => 'Rang Yai Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Rang-Yai-Island-900x500-copy.jpg'
 		],
 		[
-			'name' => 'Koh Kaew',
+			'name' => 'Koh Kaeo',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Kaew900x500.jpg'
 		],
 		[
@@ -219,15 +227,15 @@ elseif($_REQUEST['tax-tour-destinations']=='koh-samui')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-nangyuan-Koh-Tao-900x500-1.jpg'
 		],
 		[
-			'name' => 'Ang Thong Marin park',
+			'name' => 'Ang Thong Marin Park',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/mu-ko-ang-thong-national-park-thailand900x500.jpg'
 		],
 		[
-			'name' => 'Koh Mad Sum',
+			'name' => 'Koh Madsum',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-madsum-900x500-2.jpeg'
 		],
 		[
-			'name' => 'Koh Wua ta Lap',
+			'name' => 'Koh Wua Ta Lap',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-wua-ta-lap-4.jpg'
 		],
 		[
@@ -292,23 +300,23 @@ elseif($_REQUEST['tax-tour-destinations']=='krabi')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-railay-beach-krabi-thailand900x500.jpg'
 		],
 		[
-			'name' => 'Thale waek island',
+			'name' => 'Thale Waek Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Talay-waek-krabi-thailand1920x1325.jpg'
 		],
 		[
-			'name' => 'Chicken island',
+			'name' => 'Chicken Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Chicken-Island-Krabi900X500.jpg'
 		],
 		[
-			'name' => 'Matang ming Island',
+			'name' => 'Matang Ming Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Ko-Ma-Tang-Ming-View-and-Poda-Island-Beach-1024x683-1.jpg'
 		],
 		[
-			'name' => 'Poda island',
+			'name' => 'Poda Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/poda-island-960x530-1.jpg'
 		],
 		[
-			'name' => 'Lao lading island',
+			'name' => 'Lao Lading Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-lao-lading-island-krabi-thailand-2-copy.jpg'
 		],
 		[
@@ -316,11 +324,11 @@ elseif($_REQUEST['tax-tour-destinations']=='krabi')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-views-koh-phak-bia-krabi-thailand-4k-video-october-10-2021.jpg'
 		],
 		[
-			'name' => 'Tub island',
+			'name' => 'Tub Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-tup-900x500-1.jpg'
 		],
 		[
-			'name' => 'Bamboo island',
+			'name' => 'Bamboo Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Bamboo.Island.jpg'
 		],
 	];
@@ -334,7 +342,7 @@ elseif($_REQUEST['tax-tour-destinations']=='phang-nga')
 {
 	$arr_img = [
 		[
-			'name' => 'James bond island',
+			'name' => 'James Bond Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/james-bond-island-900x500-1.jpg'
 		],
 		[
@@ -342,11 +350,11 @@ elseif($_REQUEST['tax-tour-destinations']=='phang-nga')
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/aerial-view-panyee-island-phang-nga-thailand900x500.jpg'
 		],
 		[
-			'name' => 'Yao Noi , Yao yai island',
+			'name' => 'Yao Noi , Yao Yai island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Koh-Yao-Yai-900x500-1.jpeg'
 		],
 		[
-			'name' => 'Similan island',
+			'name' => 'Similan Island',
 			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/Similan-island-2-900x500-1.jpg'
 		],
 		
