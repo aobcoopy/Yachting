@@ -38,7 +38,7 @@ if($_REQUEST['tax-tour-destinations']=='')
 		],
 		[
 			'name' => 'Koh Bon',
-			'photo' => '' 
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/koh-bon.jpg' 
 		],
 		[
 			'name' => 'Rang Yai Island',
@@ -167,7 +167,7 @@ if($_REQUEST['tax-tour-destinations']=='')
 	];
 	
 	$title = 'All Island';
-	$des = '';
+	$des = 'Phuket, the jewel of the Andaman, is a yachting paradise with its crystal-clear waters, secluded bays, and stunning beaches. Aqua Retreat offers the ultimate luxury experience for those seeking an elevated lifestyle on the high seas. Come explore this tropical paradise by yacht and make memories that will last a lifetime.';
 }
 elseif($_REQUEST['tax-tour-destinations']=='phuket')
 {
@@ -190,7 +190,7 @@ elseif($_REQUEST['tax-tour-destinations']=='phuket')
 		],
 		[
 			'name' => 'Koh Bon',
-			'photo' => '' 
+			'photo' => 'http://inspiringyachting.com/wp-content/uploads/2023/06/koh-bon.jpg' 
 		],
 		[
 			'name' => 'Rang Yai Island',
