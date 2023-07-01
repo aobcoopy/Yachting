@@ -271,7 +271,21 @@
 				$input_label = true;
 				$placeholder = false;
 				$form_tag = is_admin()? 'div': 'form';
-				$action_url = tourmaster_get_template_url('search');
+				
+				/*$actual_link = explode("/",$_SERVER['REQUEST_URI']);//'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+				if($actual_link[1]=='charter')
+				{
+					$action_url = 'http://inspiringyachting.com/charter/';//tourmaster_get_template_url('charter');
+					$action_url = tourmaster_get_template_url('charter');
+				}
+				else
+				{*/
+					$action_url = tourmaster_get_template_url('search');
+				/*}*/
+				
+				
+				
+				
 				
 				$form_class  = 'tourmaster-form-field ';
 				if( $settings['style'] == 'column-full-background' ){
@@ -296,6 +310,9 @@
 					$form_class .= ' tourmaster-' . $settings['input-size'];
 				}
 				$ret .= '<' . $form_tag . ' class="' . esc_attr($form_class) . '" action="' . esc_url($action_url) . '" method="GET" >';
+				
+				//echo $actual_link[1];
+				
 				
 				// keywords
 				if( empty($fields) || in_array('keywords', $fields) ){
