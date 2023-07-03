@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.butit
+{
+    background:none !important;
+    border:1px solid #B39F8F;
+    color:#B39F8F !important;
+    text-align:center;
+    left:50% ;
+    position:relative;
+    transform:translateX(-50%);
+    padding:10px 25px;
+}
+.butit:hover
+{
+    background:#B39F8F !important;
+    color:#ffffff !important;
+}
+.item h4.island_title
+{
+    font-size:20px;
+    text-align:center;
+    margin-top:15px;
+}
+.owl-nav
+{
+    background:#ff000000;
+    margin:0 auto;
+    left:50%;
+    position:relative;
+    width:auto;
+    display:inline-block;
+    transform:translateX(-50%);
+    text-align:center;
+    /*padding:10px 25px;*/
+}
+.owlbtn
+{
+    display:inline-block;
+    padding:10px 25px;
+	cursor:pointer;
+}

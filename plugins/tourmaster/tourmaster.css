@@ -1637,9 +1637,6 @@ body.tourmaster-template-archive .tourmaster-search-style-2 .tourmaster-tour-sea
 .tourmaster-content-navigation-item-wrap{ overflow: hidden; }
 .tourmaster-content-navigation-item-outer{ position: relative; z-index: 1; }
 .tourmaster-content-navigation-item-outer.tourmaster-fixed{ position: fixed; left: 0px; right: 0px; top: 0px; z-index: 97; }
-
-#traveltour-page-wrapper > div > div > div > div > div > div > div.tourmaster-fixed{ position: fixed; left: 0px; right: 0px; top: 0px; z-index: 97;margin-top: 108px !important; }
-
 body.admin-bar .tourmaster-content-navigation-item-outer.tourmaster-fixed{ margin-top: 32px; }
 .tourmaster-content-navigation-item-outer .tourmaster-content-navigation-tab{ font-size: 14px; font-weight: 600; 
 	padding: 28px 25px 28px; display: inline-block; margin-right: 10px; }

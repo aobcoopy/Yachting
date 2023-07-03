@@ -1,5 +1,5 @@
 <?php
-
+	//echo 'test - 1231';
 	add_action('widgets_init', 'tourmaster_tour_search_widget');
 	if( !function_exists('tourmaster_tour_search_widget') ){
 		function tourmaster_tour_search_widget() {
