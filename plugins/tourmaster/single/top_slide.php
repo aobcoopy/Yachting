@@ -3,8 +3,10 @@
 <link rel="stylesheet" href="<?php echo $url;?>owl/owl.theme.default.min.css">
 <link rel="stylesheet" href="<?php echo $url;?>css/style_search.css">
 
-<script src="<?php echo $url;?>owl/jquery.min.js"></script>
-<script src="<?php echo $url;?>owl/owl.carousel.min.js"></script>
+
+
+
+
 
 <?php 
 $title = '';
@@ -408,6 +410,13 @@ include "top_description.php";
         <div class="owl-next owlbtn customNextBtn"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
     </div>
 
+<!--<script refer src="<?php echo $url;?>js/jquery-ui.js"></script>-->
+<script refer src="<?php echo $url;?>js/jQuery.js"></script>
+<!--<script refer src="<?php echo $url;?>owl/jquery.min.js"></script>-->
+<!--<script src="https://code.jquery.com/jquery-1.9.1.min.js" integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>-->
+<script refer src="<?php echo $url;?>owl/owl.carousel.min.js"></script>
+
+<!--<script refer src="<?php echo $url;?>js/jQuery.js"></script>-->
 
 <script>
 $(document).ready(function(){

@@ -1,6 +1,6 @@
 <?php 
 get_header();
-
+nocache_headers();
 
 	echo '<br><br><br><br><br><br><br><br><br><br>';
 
